@@ -1,0 +1,42 @@
+Python DSA notes 101
+Mutable object's such as lists can have their values changed. They have methods, such as() or append(), that change an objects value. Immutable objects, such as strings,cannot have their values changed, so when we run their methods, they simply return a value rather than change the value of an underlying object
+
+string methods 
+1.s.count(substring, [start,end])
+2.s.expandtabs([tabsize])- replaces tabs with spaces 
+3.s.find(substring, [start, end])- returns index of 1st occurence of a substring if not found returns -1.
+4.s.isalnum()- retrns true if all characters are alphanumeric else returns false 
+5.s.isalpha()-retrns true if all characters are alphabetic else returns false 
+6.s.isdigit()-retrns true if all characters are digits else returns false 
+7.s.join(t)-joins the strings in sequence
+8.s.lower()-converts string to lowercase 
+9.s.replace(old, new [maxreplace]-Replaces old substring with new substring.
+10.s.strip([characters])-Removes whitespace or optional characters.
+11.s.split([separator], [maxsplit])-Splits a string separated by whitespace or an
+optional separator. Returns a list.
+
+N/B- You can use any expression, variable, or operator as an index as long as the value is an
+integer, for example:
+x = "Amani Meshak0"
+print(x)
+print(x[len(x)-1])
+Displays: 0
+
+x = "Amani Meshak0"
+print(x[1+2])
+Displays:n
+
+
+List Methods
+1.list(s)-Returns a list of the sequence s.
+2.s.append(x)-Appends element x to the end of s.
+3.s.extend(x)-Appends the list x to s.
+4.s.count(x)-Counts the occurrence of x in s.
+5.s.index(x, [start], [stop])-Returns the smallest index, i, where s[i] ==x. Can
+include optional start and stop index for the search
+6.s.insert(i,e)-Inserts x at index i.
+7.s.pop(i)-Returns the element i and removes it from the list
+8.s.remove(x)-Removes x from s.
+9.s.reverse()-Reverses the order of s.
+10.s.sort(key ,[reverse])-Sorts s with optional key and reverse.
+
